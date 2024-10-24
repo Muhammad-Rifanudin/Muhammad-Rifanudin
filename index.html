@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bocah Alam</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="header">
+        <nav>
+        <div class="logo">Bocah Alam</div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-link">Beranda</a>
+                    <a href="profil.html" class="nav-link">Profil</a>
+                    <a href="galeri.html" class="nav-link">Galeri</a>
+                    <a href="about.html" class="nav-link">Tentang</a>
+                    <a href="kontak.html" class="nav-link">Kontak</a>
+                    <a href="p.html" class="nav-link">keluar</a>
+                </div>
+            </div>
+        </nav>
+    
+    </header>
+
+    <!-- Hero Section with Featured Image -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="post-title">Selamat Datang Di Bocah Alam</h1>
+            <p class="post-intro">Temukan wawasan, tren, dan inspirasi dalam desain dan pengembangan web</p>
+        </div>
+    </section>
+
+    <!-- Blog Post Section -->
+    <section class="post-container">
+        <article class="post-content">
+            <h2>Cara Mendesain Situs Web yang Menarik</h2>
+            <p class="post-meta">Diposting pada 16 Oktober 2024 oleh <strong>Muhammad Rifanudin</strong></p>
+            <p>Desain web bukan hanya tentang estetika, tetapi juga tentang menciptakan pengalaman yang bermakna bagi audiens Anda. Dalam artikel ini, kita akan membahas beberapa praktik terbaik untuk menciptakan situs web yang elegan dan fungsional yang menonjol.</p>
+
+            <h3>1. Penggunaan Ruang Putih</h3>
+            <p>Ruang kosong merupakan elemen penting dalam desain web. Ruang kosong membantu konten Anda lebih menarik, meningkatkan keterbacaan, dan memberikan kesan modern dan bersih pada situs. Jangan takut untuk membiarkan beberapa bagian halaman Anda kosong; terkadang, lebih sedikit lebih baik.</p>
+
+            <h3>2. Tipografi Itu Penting</h3>
+            <p>Memilih font yang tepat sangat penting untuk tampilan dan nuansa situs web Anda. Untuk desain yang elegan, pilih font yang bersih dan profesional seperti <strong>Poppins</strong> or <strong>Roboto</strong>.  Memasangkan font dapat menciptakan kontras dan hierarki yang indah dalam konten Anda.</p>
+
+            <blockquote>
+                "Desain yang bagus adalah desain yang sesedikit mungkin." – Dieter Rams
+            </blockquote>
+
+            <h3>3. Hirarki Visual</h3>
+            <p>Hirarki visual mengacu pada pengaturan elemen dengan cara yang menunjukkan pentingnya. Gunakan ukuran, warna, dan posisi yang kontras untuk mengarahkan perhatian pengguna ke bagian terpenting konten Anda.</p>
+
+            <img src="images/p2.jpg" alt="Design Example" class="post-image">
+
+            <p>Dengan mengikuti prinsip-prinsip ini, Anda dapat membuat situs web yang memukau secara visual yang tidak hanya terlihat bagus tetapi juga berfungsi dengan lancar bagi pengguna. Ingatlah bahwa tren desain berubah seiring waktu, jadi teruslah belajar dan beradaptasi!</p>
+
+            <button class="btn-readmore">Baca Lebih Banyak Artikel</button>
+        </article>
+
+        <!-- Sidebar with Recent Posts -->
+        <aside class="sidebar">
+            <h3>Tulisan Terbaru</h3>
+            <ul class="recent-posts">
+                <li><a href="#">Mendesain untuk Aksesibilitas: Praktik Terbaik</a></li>
+                <li><a href="#">10 Tren Pengembangan Web Teratas di Tahun 2024</a></li>
+                <li><a href="#"> Membuat Aplikasi Seluler yang Mudah Digunakan</a></li>
+                <li><a href="#">Mengapa Tipografi adalah Kunci UI/UX yang Hebat</a></li>
+            </ul>
+        </aside>
+    </section>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Tentang Kami</h2>
+        <p class="text-center">Informasi tentang Bocah Alam.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Bocah Alam. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+    <style>
+        /* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header / Navbar */
+.header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li {
+    margin-left: 20px;
+}
+
+.header ul li a {
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/p3.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.hero-content {
+    z-index: 1;
+    text-align: center;
+}
+
+.post-title {
+    font-size: 48px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.post-intro {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Post Content */
+.post-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.post-content {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.post-content h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.post-content h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.post-image {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+blockquote {
+    background-color: #f7f7f7;
+    border-left: 5px solid #007bff;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.btn-readmore {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-readmore:hover {
+    background-color: #0056b3;
+}
+
+/* Sidebar */
+.sidebar {
+    max-width: 300px;
+    margin-left: 40px;
+}
+
+.sidebar h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: #007bff;
+}
+
+    </style>
+</body>
+</html>

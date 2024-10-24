@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+body {
+    color: #333;
+    line-height: 1.8;
+    background-image: url('123.jpeg') ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    background: rgba(51, 163, 211, 0.674);
+    color: #fff;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    text-align:rgba(253, 250, 250, 0.721);
+    background-image: url('111.jpeg') rgba(249, 246, 246, 0.639);
+    width: 100%;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+aside {
+    flex: 1;
+    background-color: rgba(253, 250, 250, 0.721);
+    padding: 50pt;
+    margin-bottom: 50px ;
+    box-shadow: 0 2px 4px rgba(249, 246, 246, 0.1);
+    border-radius: 50pt;
+    background: rgba(255, 255, 255, 0.9);
+    width: 600pt;
+
+}
+
+.logo {
+    height: 50px;
+    display: flex;
+    gap: 10px;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    display: block;
+    margin: auto;
+    background-image: url('111.jpeg') rgba(249, 246, 246, 0.1);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 100%;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0 1rem;
+    vertical-align: middle;
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+    border: solid 1px white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: aqua;
+    font-weight: bold;
+}
+
+nav ul li a i {
+    margin-right: 0.5rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem 1rem 6rem 2rem;
+    margin-top: 2rem;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 80px;
+    margin-top: 100px;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    overflow: hidden; 
+    border-radius: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 50px;
+
+}
+
+.login-box .logo img {
+    width: 90px;
+    height: auto;
+}
+
+.login-box h2 {
+    margin-bottom: 50rem ;
+    background-color: #2279b3;
+}
+
+________________________________________________________
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tugas-box {
+    background: rgba(150, 173, 183, 0.4);
+    padding: 4rem;
+    box-shadow: 10px rgb(255, 255, 255);
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 2rem;
+    vertical-align: middle;
+    display: block;
+    border-radius: 80px;
+}
+
+.tugas-box .logo img {
+    width: 100px;
+    height: auto;
+}
+
+.tugas-box h2 {
+    margin-bottom: 5rem;
+    background-color: rgba(42, 94, 65, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    overflow: hidden; 
+    border-radius: 80px;
+    
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.input-group label i {
+    margin-right: 0.5rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #4CAF50;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button i {
+    margin-right: 0.5rem;
+}
+
+button:hover {
+    background: #45a049;
+}

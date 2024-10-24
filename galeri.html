@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bocah Alam</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Bocah Alam</a>
+        <div class="collapse navbar-collapse">
+            <div class="navbar-nav">
+                <a href="index.html" class="nav-link">Beranda</a>
+                <a href="profil.html" class="nav-link">Profil</a>
+                <a href="galeri.html" class="nav-link">Galeri</a>
+                <a href="about.html" class="nav-link">Tentang</a>
+                <a href="kontak.html" class="nav-link">Kontak</a>
+                <a href="p.html" class="nav-link">keluar</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Galeri Bocah Alam</h2>
+        <p class="text-center">Explore the beauty of Pekalongan with us!</p>
+    </div>
+    <main>
+        <div class="gallery-grid">
+            <img src="images/p1.jpg" alt="Foto 1">
+            <img src="images/p2.jpg" alt="Foto 2">
+            <img src="images/p3.jpg" alt="Foto 3">
+            <img src="images/p4.jpg" alt="Foto 4">
+        </div>
+    </main>
+
+    <footer class="text-center mt-5">
+        &copy; 2024 Bocah Alam. All Rights Reserved.
+    </footer>
+
+    <script src="script.js"></script>
+    <style>
+        /* Gallery */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+    </style>
+</body>
+</html>

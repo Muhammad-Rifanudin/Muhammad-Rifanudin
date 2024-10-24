@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buat Akun - Wisata Pekalongan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Bocah Alam</a>
+        <div class="collapse navbar-collapse">
+            <div class="navbar-nav">
+                <a href="p.html" class="nav-link">kembali</a>
+            </div>
+        </div>
+    </nav>
+            <div class="container mt-5">
+                <h2 class="text-center mb-4">Daftar Akun Bocah Alam</h2>
+                <form>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="namaDepan" class="form-label">Nama Depan</label>
+                            <input type="text" class="form-control" id="namaDepan" name="namaDepan">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="namaBelakang" class="form-label">Nama Belakang</label>
+                            <input type="text" class="form-control" id="namaBelakang" name="namaBelakang">
+                        </div>
+                    </div>
+        
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="alamat" class="form-label">Alamat</label>
+                            <input type="text" class="form-control" id="alamat" name="alamat">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                    </div>
+        
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="noHP" class="form-label">No HP</label>
+                            <input type="tel" class="form-control" id="noHP" name="noHP">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="agama" class="form-label">Agama</label>
+                            <select id="agama" class="form-select" name="agama">
+                                <option selected disabled>--Pilih Agama--</option>
+                                <option value="Islam">Islam</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Budha">Budha</option>
+                                <option value="Lainnya">Lainnya</option>
+                            </select>
+                        </div>
+                    </div>
+        
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="pekerjaan" class="form-label">Pekerjaan</label>
+                            <select id="pekerjaan" class="form-select" name="pekerjaan">
+                                <option selected disabled>--Pilih Pekerjaan--</option>
+                                <option value="Swasta">Swasta</option>
+                                <option value="PNS">PNS</option>
+                                <option value="TNI">TNI</option>
+                                <option value="Dokter">Dokter</option>
+                                <option value="Programmer">Programmer</option>
+                                <option value="Guru">Guru</option>
+                                <option value="Dosen">Dosen</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="jenisKelamin" class="form-label">Jenis Kelamin</label>
+                            <select id="jenisKelamin" class="form-select" name="jenisKelamin">
+                                <option selected disabled>--Pilih Jenis Kelamin--</option>
+                                <option value="Laki-laki">Laki-laki</option>
+                                <option value="Perempuan">Perempuan</option>
+                            </select>
+                        </div>
+                    </div>
+        
+                    <!-- Tambahkan kolom lain sesuai kebutuhan -->
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username" name="username">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" name="password">
+                        </div>
+                    </div>
+        
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="rePassword" class="form-label">Re-type Password</label>
+                            <input type="password" class="form-control" id="rePassword" name="rePassword">
+                        </div>
+                    </div>
+        
+                    <div class="text-center">
+                        <button class="btn btn-primary" onclick="location. href='masuk.html'">Daftar</button>
+                    </div>
+
+                </form>
+            </div>
+            <footer class="text-center mt-5">
+                &copy; 2024 Bocah Alam. All Rights Reserved.
+            </footer>
+        <style>
+                /* Styling container dengan gradien dan bayangan */
+        .container {
+            margin-top: 50px;
+            background: linear-gradient(135deg, #969798, #ffffff);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        /* Heading form dengan animasi underline */
+        h2 {
+            color: #343a40;
+            font-size: 32px;
+            font-weight: bold;
+            position: relative;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h2::after {
+            content: '';
+            width: 80px;
+            height: 4px;
+            background-color: #007bff;
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        /* Animasi input dan select saat hover */
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="password"],
+        select {
+            background-color: #ffffff;
+            border: none;
+            padding: 15px;
+            font-size: 16px;
+            border-radius: 30px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+        
+        input[type="text"]:hover,
+        input[type="email"]:hover,
+        input[type="tel"]:hover,
+        input[type="password"]:hover,
+        select:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        /* Efek fokus pada input */
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="tel"]:focus,
+        input[type="password"]:focus,
+        select:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0px 8px 20px rgba(0, 123, 255, 0.4);
+        }
+        
+        /* Styling tombol submit */
+        button[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 25px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 50px;
+            border: none;
+            transition: background-color 0.4s ease-in-out;
+            box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+            box-shadow: 0px 6px 15px rgba(0, 123, 255, 0.4);
+            transform: translateY(-3px);
+        }
+        
+        /* Jarak antar elemen form */
+        .mb-3 {
+            margin-bottom: 25px;
+        }
+        
+        /* Styling placeholder untuk input */
+        input::placeholder {
+            color: #adb5bd;
+            font-size: 15px;
+        }
+        
+        /* Media query untuk tampilan mobile */
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px;
+                margin-top: 20px;
+            }
+        
+            h2 {
+                font-size: 28px;
+            }
+        
+            button[type="submit"] {
+                font-size: 16px;
+            }
+        }
+        
+            </style>
+<!-- Link to Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
